@@ -1,0 +1,10 @@
+<!--pages/Parent/p-notifications/p-notifications.wxml-->
+<import src="../../../template/parent/p-notifications-template/p-notifications-template.wxml" />
+
+<view class='container'>
+  
+  <view wx:for="{{content}}" wx:for-index="index" wx:for-item="item" data-id="{{item.informId}}" catchtap='NoticeDetail' >
+    <template is="notifications" data="{{...item}}" />
+  </view>
+
+</view>

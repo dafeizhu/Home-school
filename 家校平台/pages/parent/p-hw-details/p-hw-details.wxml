@@ -1,0 +1,6 @@
+<!--pages/Parent/p-hw-details/p-hw-details.wxml-->
+<view>
+  <text class="hw-details-text">
+{{content}}
+  </text>
+</view>

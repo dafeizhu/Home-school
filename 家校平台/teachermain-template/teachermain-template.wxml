@@ -1,0 +1,16 @@
+<template name="ro-co">
+  <view class="row">
+    <view class="column">
+      <image src='/images/作业图标1.jpg' class="column"></image>
+    </view>
+    <view class="column">
+      <image src='/images/通知图标1.jpg' class="column"></image>
+    </view>
+    <view class="column">
+      <image src='/images/私信图标1.jpg' class="column"></image>
+    </view>
+    <view class="column">
+      <image src='/images/班级图标1.jpg' class="column"></image>
+    </view>
+  </view>
+</template>

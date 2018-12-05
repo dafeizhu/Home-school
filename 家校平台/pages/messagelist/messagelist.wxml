@@ -1,0 +1,9 @@
+<import src="../../messagelist-template/messagelist-template.wxml" />
+
+<view class='container'>
+
+  <view wx:for="{{ListData}}" wx:for-index="index" wx:for-item="item" catchtap='ClickDetails' data-id="{{item.letterId}}" data-time="{{item.time}}" data-sendName="{{item.sendName}}"  data-getName="{{item.teacherName}}" >
+    <template is="messagelist" data="{{...item}}" />
+  </view>
+
+</view>

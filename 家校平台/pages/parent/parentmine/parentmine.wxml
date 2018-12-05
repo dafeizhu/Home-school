@@ -1,0 +1,15 @@
+<import src="../../../template/tabbar/tabbar.wxml" />
+<import src="../../../mine-template/mine-template.wxml" />
+<template is="tabBar" data="{{tabBar}}" />
+
+
+<view class='mine-container'>
+  <image class='hpor' src='/images/mine/1.png'></image>
+  <text class='name'>{{name}}</text>
+</view>
+<view class="separate"></view>
+<view class='detail'>
+  <view wx:for="{{items}}" wx:for-index="index" wx:for-item="item">
+    <template is="mine" data="{{...item}}" />
+  </view>
+</view>

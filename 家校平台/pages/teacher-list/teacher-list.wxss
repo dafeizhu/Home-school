@@ -1,0 +1,11 @@
+@import "../../classlist-template/classlist-template.wxss";
+
+
+.all{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #eceded;
+  height: 1250rpx;
+}
+

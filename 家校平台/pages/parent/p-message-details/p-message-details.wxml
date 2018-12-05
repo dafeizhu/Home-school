@@ -1,0 +1,6 @@
+<!--pages/Parent/p-message-details/p-message-details.wxml-->
+<view class='body'>
+  <text class="message-details-text">
+{{content}}
+  </text>
+</view>

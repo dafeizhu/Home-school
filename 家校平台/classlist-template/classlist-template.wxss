@@ -1,0 +1,38 @@
+/* classlist-template/classlist-template.wxss */
+
+.list{
+  margin: 30rpx 0 0 5%;
+  border: 1px solid gray;
+  border-radius: 5px;
+  background-color: white;
+  width: 90%;
+  line-height: 135rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between
+}
+
+.list-left{
+  display: flex;
+  flex-direction: row;
+  margin-left: 30rpx;
+}
+
+.list-left-img{
+  margin-top: 15rpx;
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.list-left-text{
+  margin-left: 10rpx;
+  font-size: 24px;
+  font-family: 黑体;
+}
+
+.list-img{
+  margin: 36rpx 10rpx 0 0;
+  width: 60rpx;
+  height: 60rpx;
+
+}

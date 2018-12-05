@@ -1,0 +1,23 @@
+<view class='top-body'>
+  <view class='top-one'>
+    <text class='one-text'>发给：{{name}}</text>
+    <!-- <text class='two-text'>共41人</text>
+    <image class='top-img' src='/images/arrow.png'></image> -->
+  </view>
+  <view class='top-two'>
+    <view class='top-top'>
+      <text class='third-text'>{{details}}</text>
+      <!-- <text class='four-text'>10-26</text> -->
+    </view>
+  </view>
+</view>
+
+<view class='middle'>
+  <image class='middle-img' src='/images/mine/g2.png'></image>
+  <text class='middle-text'>共有0人回复</text>
+</view>
+
+<view class='bottom'>
+  <image class='bottom-img' src='/images/mine/g3.png'></image>
+  <text class='bottom-text'>未发送的家长</text>
+</view>

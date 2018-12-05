@@ -1,0 +1,37 @@
+/* pages/message-detail/message-detail.wxss */
+
+.whole {
+  border: 1rpx solid gray;
+  margin: 50rpx 5% 0 5%;
+  border-radius: 5px;
+  width: 90%;
+  height: 950rpx;
+}
+
+.title {
+  line-height: 80rpx;
+  width: 100%;
+  border-bottom: 1rpx solid #ededed;
+}
+
+.title-text {
+  margin-left: 10rpx;
+  font-size: 36rpx;
+}
+
+.main {
+  margin-top: 10rpx;
+  height: 790rpx;
+  margin-left: 10rpx;
+  width: 98%;
+}
+
+.main-text {
+  font-size: 36rpx;
+}
+
+.date {
+  float: right;
+  margin-right: 30rpx;
+  font-size: 32rpx;
+}

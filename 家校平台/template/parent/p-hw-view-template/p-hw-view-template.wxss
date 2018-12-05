@@ -1,0 +1,45 @@
+/* Template/p-hw-view-template/p-hw-view-template.wxss */
+.sent {
+  margin: 20rpx 7% 0 7%;
+  display: flex;
+  flex-direction: row;
+  width: 85%;
+  height: 130rpx;
+  border: 1px solid gray;
+  border-radius: 5px;
+  justify-content: space-between;
+}
+
+.sent-left{
+  display: flex;
+  flex-direction: row;
+}
+
+.sent-left-img{
+  margin: 15rpx 0 0 10rpx;
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.sent-left-text {
+  margin:35rpx 0 0 10rpx;
+  font-size: 24px;
+  font-family: 黑体;
+}
+
+.text-img{
+  display: flex;
+  flex-direction: row;
+}
+
+.sent-text {
+  color: gray;
+  margin-top: 37rpx;
+  font-size: 15px;
+}
+
+.image-1 {
+  margin-top: 17rpx;
+  width: 80rpx;
+  height: 80rpx;
+}

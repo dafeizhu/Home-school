@@ -1,0 +1,11 @@
+<view class='whole'>
+  <view class='title'>
+    <text class='title-text'>来自：{{Par}}家长</text>
+  </view>
+  <view class='main'>
+    <text class='main-text' space="nbsp">尊敬的{{Tea}}老师：
+    {{content}}         
+    </text>
+  </view>
+  <text class='date'>{{time}}</text>
+</view>

@@ -1,0 +1,10 @@
+/* pages/Parent/p-message-details/p-message-details.wxss */
+.body{
+  width: 88%;
+  margin-left: 6%;
+}
+
+.message-details-text {
+  font-size: 20px;
+}
+

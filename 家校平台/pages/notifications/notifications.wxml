@@ -1,0 +1,14 @@
+<import src="../../notifications-template/notifications-template.wxml" />
+
+<view class='container'>
+
+  <view class='sentmessage' catchtap='FightNotice' >
+    <text class='sentmessage-text' catchtap='FightNotice' >点击发送通知</text>
+  </view>
+  
+  <view wx:for="{{notice}}" wx:for-index="index" wx:for-item="item" catchtap='HWdetail'
+  data-id="{{item.informId}}" data-name="{{item.className}}" >
+    <template is="notifications" data="{{...item}}" />
+  </view>
+
+</view>

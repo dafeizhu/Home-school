@@ -1,0 +1,29 @@
+/* template/parent/parentmine-template/parentmine-template.wxss */
+
+.fence{
+  flex-direction: row;
+  border-top: 1px solid #ededed;
+  border-bottom: 1px solid #ededed; 
+}
+
+.detail-text {
+  color: gray;
+  vertical-align: middle;
+  font-size: 36rpx;
+  line-height: 100rpx;
+  margin-left: 20rpx;
+}
+
+.arrow{
+  margin-left: 72%;
+  vertical-align: middle;
+  width: 20rpx;
+  height: 20rpx;
+}
+
+.detail-image{
+  margin-left: 20rpx;
+  vertical-align: middle;
+  width: 40rpx;
+  height: 40rpx;
+}
