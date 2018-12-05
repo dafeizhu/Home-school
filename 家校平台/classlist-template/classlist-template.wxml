@@ -1,9 +1,0 @@
-<template name="classlist">
-  <view class='list'>
-    <view class='list-left'>
-      <image class='list-left-img' src='/images/r1.png'></image>
-      <text class='list-left-text'>{{className}}</text>
-    </view>
-    <image class='list-img' src='/images/classlist/222.png'></image>
-  </view>
-</template>

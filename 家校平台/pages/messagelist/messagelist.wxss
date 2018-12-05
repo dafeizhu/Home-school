@@ -1,9 +1,0 @@
-@import "../../messagelist-template/messagelist-template.wxss";
-
-.container{
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 50rpx;
-}

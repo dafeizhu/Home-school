@@ -1,7 +1,0 @@
-<import src='../../classlist-template/classlist-template.wxml' />
-
-<view class='all'>
-  <view wx:for="{{class}}" wx:for-index="index" wx:for-item="item" data-CurrentClassNo="{{item.currentClassNo}}" catchtap='onclick'>
-    <template is="classlist" data="{{...item}}" />
-  </view>
-</view>

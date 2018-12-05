@@ -1,9 +1,0 @@
-<view class='mine-container'>
-  <image class='hpor' src='/images/mine/1.png'></image>
-  <text class='name'>韩念臣</text>
-</view>
-<view class='detail'>
-  <text class='detail-text'>科任：</text>
-  <text class='detail-text'>学历：</text>
-  <text class='detail-text'>介绍：</text>
-</view>

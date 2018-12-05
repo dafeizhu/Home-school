@@ -1,9 +1,0 @@
-@import "../../classlist-template/classlist-template.wxss";
-
-
-.all{
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 1234rpx;
-}

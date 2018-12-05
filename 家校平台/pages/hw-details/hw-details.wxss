@@ -1,5 +1,0 @@
-.hw-details-text {
-  font-size: 20px;
-  position: relative;
-  left: 30rpx;
-}
