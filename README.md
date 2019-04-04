@@ -43,8 +43,11 @@
 ![image](https://github.com/xianfengtuandui/Home-school/blob/master/images/发送私信界面下拉列表实现效果.PNG) 
 ### 项目初期，只是实现了下拉列表，但在后期测试中发现，真机预览时点击下拉列表没有反应，后边经过查找问题，才得知为<code>z-index</code>比重的问题
 ## 下拉列表相关实现代码
+### wxml文件
 ![image](https://github.com/xianfengtuandui/Home-school/blob/master/images/收件人下拉列表实现.PNG) 
+### json文件
 ![image](https://github.com/xianfengtuandui/Home-school/blob/master/images/收件人下拉列表实现2.PNG) 
 ### 最终的实现效果为，点击下拉菜单，会相应的改变文本域中的内容（更改为“不可编辑”），此时只有选中完收件人，才可继续操作。但是，在实际的测试中，发现如果先写文本域的信息，再返回头去选择下拉菜单，会导致文本域中的内容丢失（后期完善）
 <br><br>
+## 项目总结：易家校这个项目，制作时间虽然不算长，但是我从这个项目中却学习到了很多，比如说小程序中数据绑定的使用，<code>wx:if</code>结合数据绑定控制显隐的应用...最最重要的，是坚定了我前端学习的决心！希望在仅剩的大学生活中，我能够学习好前端的知识，将来毕业能找到一份前端方向令我称心如意的工作！
 
