@@ -1,0 +1,6 @@
+<!--pages/Parent/p-hw-view/p-hw-view.wxml-->
+<import src="/template/parent/p-hw-view-template/p-hw-view-template.wxml" />
+
+<view wx:for="{{HwList}}" wx:for-index="index" wx:for-item="item" catchtap='ClickHwDetail' data-content="{{item.HWcontent}}" >
+  <template is="hw-view" data="{{...item}}" />
+</view>

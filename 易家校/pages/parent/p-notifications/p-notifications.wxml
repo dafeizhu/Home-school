@@ -1,0 +1,10 @@
+<!--pages/Parent/p-notifications/p-notifications.wxml-->
+<!-- 家长端查询通知界面 -->
+<import src="../../../template/parent/p-notifications-template/p-notifications-template.wxml" />
+
+<view class='container'>
+  <view wx:for="{{content}}" wx:for-index="index" wx:for-item="item" data-id="{{item.informId}}" catchtap='NoticeDetail' >
+    <!-- 依旧是预先写好的template模板引入 -->
+    <template is="notifications" data="{{...item}}" />
+  </view>
+</view>

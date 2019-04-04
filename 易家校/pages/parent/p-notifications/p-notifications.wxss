@@ -1,0 +1,9 @@
+/* pages/Parent/p-notifications/p-notifications.wxss */
+@import "../../../template/parent/p-notifications-template/p-notifications-template.wxss";
+
+.container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}

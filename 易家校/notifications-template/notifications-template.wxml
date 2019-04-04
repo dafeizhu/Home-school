@@ -1,0 +1,13 @@
+<template name="notifications">
+  <view class='messagedetail'>
+    <image class='messagedetail-img' src='/images/notifications/tongzhi.png'></image>
+    <image class='arrow-img' src='/images/arrow.png'></image>
+    <view class='top-right'>
+      <text class='title'>发给：{{className}}</text>
+      <text class='brief-message'>{{informContent}}</text>
+    </view>
+    <view class="separate"></view>
+    <text class='date'>{{sendTime}}</text>
+  </view>
+</template>
+

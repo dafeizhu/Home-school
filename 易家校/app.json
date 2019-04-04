@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/parent/p-messagelist/p-messagelist",
+    "pages/teachermine/teachermine",
+    "pages/parent/parentmine/parentmine",
+    "pages/parent/p-sent-message/p-sent-message",
+    "pages/parent/p-message-details/p-message-details",
+    "pages/parent/p-notification-details/p-notification-details",
+    "pages/parent/p-notifications/p-notifications",
+    "pages/parent/p-hw-view/p-hw-view",
+    "pages/parent/p-hw-details/p-hw-details",
+    "pages/parent/parentmain/parentmain",
+    "pages/messagelist/messagelist",
+    "pages/notification-details/notification-details",
+    "pages/notifications/notifications",
+    "pages/message-detail/message-detail",
+    "pages/hw-sent/hw-sent",
+    "pages/t-hw-view/t-hw-view",
+    "pages/homework/homework",
+    "pages/hw-details/hw-details",
+    "pages/teacher-list/teacher-list",
+    "pages/sent-massage/sent-massage",
+    "pages/sent-infom/sent-infom",
+    "pages/classlist/classlist",
+    "pages/teachermain/teachermain"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#405f80"
+  },
+  "tabBar": {
+    "backgroundColor": "#ffffff",
+    "color": "#bfbfbf",
+    "selectedColor": "#d81e06",
+    "list": [
+      {
+        "pagePath": "pages/teachermain/teachermain",
+        "text": "主 页",
+        "iconPath": "/images/teachermain/h18.png",
+        "selectedIconPath": "/images/teachermain/h18.png"
+      },
+      {
+        "pagePath": "pages/teachermine/teachermine",
+        "text": "我 的",
+        "iconPath": "/images/teachermain/Document_Fav.png",
+        "selectedIconPath": "/images/teachermain/Document_Fav.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

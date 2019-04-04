@@ -1,0 +1,9 @@
+<import src="../../hw-view-template/hw-view-template.wxml" />
+<view class='container'>
+  <view class='sentmessage' catchtap='FightNotice'>
+    <text class='sentmessage-text' catchtap='FightNotice'>点击发布作业</text>
+  </view>
+  <view wx:for="{{homelist}}" wx:for-index="index" wx:for-item="item" catchtap='onclick' data-content="{{item.HWcontent}}">
+    <template is="hw-view" data="{{...item}}" />
+  </view>
+</view>

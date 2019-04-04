@@ -1,0 +1,6 @@
+<template name="mine">
+  <view class='fence'>
+      <image class='detail-image' src='{{img}}'></image>
+      <text class='detail-text'>{{text}}</text>
+  </view>
+</template>

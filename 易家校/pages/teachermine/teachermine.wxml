@@ -1,0 +1,19 @@
+<import src="../../mine-template/mine-template.wxml" />
+
+<view class='mine-container'>
+  <image class='hpor' src='/images/mine/1.png'></image>
+  <text class='name'>{{name}}</text>
+</view>
+
+<view class='content'>
+  <view class="separate"></view>
+  <view class='detail'>
+    <view wx:for="{{items}}" wx:for-index="index" wx:for-item="item">
+      <template is="mine" data="{{...item}}" />
+    </view>
+  </view>
+  <view class="separate"></view>
+  <view class='signout' catchtap='Loginout' >
+    <text class='signout-text'>退出登录</text>
+  </view>
+</view>

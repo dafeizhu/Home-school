@@ -1,0 +1,28 @@
+/* template/parent/parentmain-template/parentmain-template.wxss */
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 250rpx;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  height: 150rpx;
+  margin-left: 10%;
+}
+
+.column-img{
+  margin: 10rpx 0 0 25rpx;
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.column-text {
+  margin: 10rpx 0 0 30rpx;
+  font-size: 22rpx;
+  font-weight: bold;
+  color: #405f80;
+}

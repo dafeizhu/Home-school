@@ -1,0 +1,14 @@
+<!--Template/p-messagelist-template/p-messagelist-template.wxml-->
+<template name="messagelist">
+  <view class='messagedetail'>
+    <image class='messagedetail-img' src='/images/sent-message.png'></image>
+    <image class='arrow-img' src='/images/arrow.png'></image>
+    <view class='top-right'>
+      <text class='title'>收件人：{{teacherName}}</text>
+      <text class='brief-message'>{{content}}</text>
+    </view>
+    <view class="separate"></view>
+    <text class='date'>{{time}}</text>
+    <text class='read'>{{state}}</text>
+  </view>
+</template>

@@ -1,0 +1,23 @@
+<import src="../../../template/tabbar/tabbar.wxml"/>
+<import src="../../../template/parent/parentmain-template/parentmain-template.wxml"/>
+<!-- 上方为导入的两个template模板，下边是底部导航栏tabBar的引入 -->
+<!-- 由于我们项目教师与家长的主界面均有tabBar，所以家长端的tabbar是自定义的tabbar，详情参考tabbar.wxml -->
+<template is="tabBar" data="{{tabBar}}"/>
+<view>
+  <!-- 轮播图组件 -->
+  <swiper indicator-dots="true" autoplay='true' interval='5000'>
+    <swiper-item>
+      <image class='image'  src='/images/teachermain/1.jpg'></image>
+    </swiper-item>
+    <swiper-item>
+      <image class='image' src='/images/teachermain/2.jpg'></image>
+    </swiper-item>
+    <swiper-item>
+      <image class='image' src='/images/teachermain/3.jpg'></image>
+    </swiper-item>
+  </swiper>
+  <!-- 预先做好模板直接引入 -->
+  <view wx:for="{{items}}" wx:for-index="index" wx:for-item="item">
+    <template is="ro-co" data="{{...item}}" />
+  </view>
+</view>

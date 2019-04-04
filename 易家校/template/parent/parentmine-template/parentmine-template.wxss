@@ -1,0 +1,20 @@
+/* mine-template/mine-template.wxss */
+.fence{
+  border-top: 1px solid #ededed;
+  border-bottom: 1px solid #ededed; 
+}
+
+.detail-text {
+  color: black;
+  vertical-align: middle;
+  font-size: 36rpx;
+  line-height: 100rpx;
+  margin-left: 20rpx;
+}
+
+.detail-image{
+  margin-left: 20rpx;
+  vertical-align: middle;
+  width: 40rpx;
+  height: 40rpx;
+}

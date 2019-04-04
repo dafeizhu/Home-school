@@ -1,0 +1,14 @@
+
+<!-- 家长端查询作业界面 -->
+<template name="hw-view">
+  <view class="sent">
+    <view class='sent-left'>
+      <image class='sent-left-img' src='/images/r3.png'></image>
+      <text class='sent-left-text'>{{object}}</text>
+    </view>
+    <view class='date-arrow'>
+      <div class="sent-text">{{sendTime}}</div>
+      <image src="/images/arrow.png" class="image-1"></image>
+    </view>
+  </view>
+</template>
